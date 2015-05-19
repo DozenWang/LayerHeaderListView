@@ -5,10 +5,10 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <yida.demoapplication.PullToZoomListView
+    <yida.demoapplication.LayerHeaderListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></yida.demoapplication.PullToZoomListView>
+        android:layout_height="match_parent"></yida.demoapplication.LayerHeaderListView>
 
 
 </RelativeLayout>

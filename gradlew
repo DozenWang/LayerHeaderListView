@@ -6,7 +6,7 @@
 ##
 ##############################################################################
 
-# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to   script.
 DEFAULT_JVM_OPTS=""
 
 APP_NAME="Gradle"
@@ -50,7 +50,7 @@ fi
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
 PRG="$0"
-# Need this for relative symlinks.
+# Need   for relative symlinks.
 while [ -h "$PRG" ] ; do
     ls=`ls -ld "$PRG"`
     link=`expr "$ls" : '.*-> \(.*\)$'`
