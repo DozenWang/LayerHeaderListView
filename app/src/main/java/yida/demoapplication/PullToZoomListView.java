@@ -124,6 +124,7 @@ public class PullToZoomListView extends ListView implements
 		} else if (this.mHeaderImage.getScrollY() != 0) {
 			Log.d("mmm", "2222222222222");
 			this.mHeaderImage.scrollTo(0, 0);
+
 		}
 		if (this.mOnScrollListener != null) {
 			this.mOnScrollListener.onScroll(paramAbsListView, paramInt1,
