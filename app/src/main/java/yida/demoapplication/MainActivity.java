@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
 
         listView.setAdapter(new ArrayAdapter<String>(MainActivity.this,
                 android.R.layout.simple_list_item_1, adapterData));
-        listView.getHeaderView().setImageResource(R.drawable.splash01);
+        listView.getHeaderView().setImageResource(R.drawable.ic_launcher);
         listView.getHeaderView().setScaleType(ImageView.ScaleType.CENTER_CROP);
     }
 
